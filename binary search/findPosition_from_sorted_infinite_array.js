@@ -31,7 +31,7 @@ const binarySearch = (arr, target, start, end) => {
     return -1;
 }
   
-let arr = [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
+let arr = [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,82,90,97,98];
   
-const data = searchInfiniteLoop(arr, 18);
+const data = searchInfiniteLoop(arr, 97);
 console.log(data)
